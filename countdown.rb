@@ -3,6 +3,6 @@
 def countdown(count)
   while (count > 0) do
     puts "#{count} SECOND(S)!"
-    count--
+    count -= 1
   end
 end
